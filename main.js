@@ -8,7 +8,7 @@ const createWindow = () => {
     width: 800,
     height: 600,
   });
-
+  // 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
   win.loadFile("index.html");
 
   const content = win.webContents;

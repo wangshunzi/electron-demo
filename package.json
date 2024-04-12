@@ -7,7 +7,7 @@
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
-    "publish": "electron-forge publish"
+    "publish": "env-cmd electron-forge publish"
   },
   "keywords": [
     "demo"
@@ -26,6 +26,25 @@
     "@electron-forge/plugin-auto-unpack-natives": "^7.3.1",
     "@electron-forge/plugin-fuses": "^7.3.1",
     "@electron-forge/publisher-github": "^7.3.1",
-    "electron": "^29.3.0"
+    "@octokit/auth-token": "^5.1.0",
+    "@octokit/core": "^6.1.2",
+    "@octokit/endpoint": "^10.1.0",
+    "@octokit/graphql": "^8.1.0",
+    "@octokit/openapi-types": "^22.0.1",
+    "@octokit/plugin-paginate-rest": "^11.1.0",
+    "@octokit/plugin-request-log": "^5.1.0",
+    "@octokit/plugin-rest-endpoint-methods": "^12.2.2",
+    "@octokit/plugin-retry": "^7.1.0",
+    "@octokit/request": "^9.1.0",
+    "@octokit/request-error": "^6.1.0",
+    "@octokit/rest": "^20.1.0",
+    "@octokit/types": "^13.4.0",
+    "before-after-hook": "^3.0.2",
+    "bottleneck": "^2.19.5",
+    "electron": "^29.3.0",
+    "env-cmd": "^10.1.0",
+    "mime-db": "^1.52.0",
+    "mime-types": "^2.1.35",
+    "universal-user-agent": "^7.0.2"
   }
 }
